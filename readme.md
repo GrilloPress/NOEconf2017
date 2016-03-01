@@ -7,3 +7,7 @@ Things to set up:
 - Eventbrite to Google Sheet connector
 - Add piklist theme engine
 - Update template parts structure to views folder and plugin/functions.php stuff to lib folder
+
+## branding
+
+color: #18bc9c
