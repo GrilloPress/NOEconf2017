@@ -9,7 +9,7 @@ get_header(); ?>
 
 	<section id="primary" class="container">
     <div class="row">
-       <main id="main" class="col-md-8" role="main">
+       <main id="main" class="col-md-8 col-sm-8" role="main">
 
       <?php if ( have_posts() ) : ?>
 
@@ -40,7 +40,7 @@ get_header(); ?>
       <?php endif; ?>
 
       </main><!-- #main-->
-      <aside class="col-md-4" role="complimentry">
+      <aside class="col-md-4 col-sm-4" role="complimentry">
         <?php get_sidebar(); ?>
       </aside>
     </div> <!-- #primary .row -->
