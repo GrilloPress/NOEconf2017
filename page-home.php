@@ -16,16 +16,62 @@
 
 get_header(); ?>
 
-	 <div id="primary" class="container">
-    <div class="row">
-      
-      <div class="col-md-12">
-        <div class="jumbotron">
+<div class="jumbotron">
+  <div class="container">
+    <div class="col-md-12 text-center">
           <h1>Hello, world!</h1>
-          <p>...</p>
-          <p><a class="btn btn-primary" href="#" role="button">Learn more</a> <a class="btn btn-link" href="#" role="button">Learn more</a> </p>
+          <p class="lead">...</p>
+          <p><a class="btn btn-primary" href="#" role="button">Learn more</a> <a class="btn btn-link" href="#" role="button">Learn more</a></p>
+     </div>
+  </div>
+</div>
+
+	 <div id="primary" class="container">     
+     <div class="row">
+      <div class="col-md-4">
+        <div class="text-center">
+          <img src="http://placehold.it/150x150" alt="..." class="img-circle">
+          <h4>Title</h4>
+          <p>words</p>
+          <a href="#" class="btn btn-warning" role="button">Click me</a>
         </div>
       </div>
+      
+      <div class="col-md-4">
+        <div class="text-center">
+          <img src="http://placehold.it/150x150" alt="..." class="img-circle">
+          <h4>Title</h4>
+          <p>words</p>
+          <a href="#" class="btn btn-warning" role="button">Click me</a>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="text-center">
+          <img src="http://placehold.it/150x150" alt="..." class="img-circle">
+          <h4>Title</h4>
+          <p>words</p>
+          <a href="#" class="btn btn-warning" role="button">Click me</a>
+        </div>
+      </div>
+     </div>
+       
+     <section>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About the conference</h2>
+          <p>100-200 words about why this conference, what the last one taught and why this next one will be even better etc.</p>
+          <a href="#" class="btn btn-warning" role="button">Click me</a>
+        </div>
+        
+        <div class="col-md-offset-1 col-md-5">
+          there
+        </div>
+      </div>
+     </section>
+     
+     
+       <div class="row">
       
       <main id="main" class="col-md-8 col-sm-8" role="main">
 
