@@ -6089,7 +6089,7 @@ tbody.collapse.in {
 }
 /* line 444, ../../../../../.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: #128f76;
 }
 /* line 448, ../../../../../.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle .icon-bar {
@@ -8809,4 +8809,11 @@ body {
   text-align: center;
   margin-top: 2em;
   margin-bottom: 4em;
+}
+
+@media screen and (max-width: 383px) {
+  /* line 9, sass/_front_page.scss */
+  .navbar-brand {
+    font-size: 13px;
+  }
 }
