@@ -6587,8 +6587,8 @@ a.badge:hover, a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  color: inherit;
-  background-color: #eeeeee;
+  color: white;
+  background-color: #18bc9c;
 }
 /* line 13, ../../../../../.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_jumbotron.scss */
 .jumbotron h1,
@@ -6603,7 +6603,7 @@ a.badge:hover, a.badge:focus {
 }
 /* line 24, ../../../../../.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_jumbotron.scss */
 .jumbotron > hr {
-  border-top-color: #d5d5d5;
+  border-top-color: #128f76;
 }
 /* line 28, ../../../../../.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_jumbotron.scss */
 .container .jumbotron, .container-fluid .jumbotron {
@@ -8802,4 +8802,11 @@ button.close {
 /* line 1, sass/_globals.scss */
 body {
   margin-top: 3em;
+}
+
+/* line 1, sass/_front_page.scss */
+.front-page-feature-block {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }

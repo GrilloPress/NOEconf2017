@@ -21,7 +21,7 @@ get_header(); ?>
     <div class="col-md-12 text-center">
           <h1>Hello, world!</h1>
           <p class="lead">...</p>
-          <p><a class="btn btn-primary" href="#" role="button">Learn more</a> <a class="btn btn-link" href="#" role="button">Learn more</a></p>
+          <p><a class="btn btn-warning" href="#" role="button">Learn more</a> <a class="btn btn-primary" href="#" role="button">Learn more</a></p>
      </div>
   </div>
 </div>
@@ -29,29 +29,29 @@ get_header(); ?>
 	 <div id="primary" class="container">     
      <div class="row">
       <div class="col-md-4">
-        <div class="text-center">
+        <div class="front-page-feature-block">
           <img src="http://placehold.it/150x150" alt="..." class="img-circle">
           <h4>Title</h4>
           <p>words</p>
-          <a href="#" class="btn btn-warning" role="button">Click me</a>
+          <a href="#" class="btn btn-primary" role="button">Click me</a>
         </div>
       </div>
       
       <div class="col-md-4">
-        <div class="text-center">
+        <div class="front-page-feature-block">
           <img src="http://placehold.it/150x150" alt="..." class="img-circle">
           <h4>Title</h4>
           <p>words</p>
-          <a href="#" class="btn btn-warning" role="button">Click me</a>
+          <a href="#" class="btn btn-primary" role="button">Click me</a>
         </div>
       </div>
       
       <div class="col-md-4">
-        <div class="text-center">
+        <div class="front-page-feature-block">
           <img src="http://placehold.it/150x150" alt="..." class="img-circle">
           <h4>Title</h4>
           <p>words</p>
-          <a href="#" class="btn btn-warning" role="button">Click me</a>
+          <a href="#" class="btn btn-primary" role="button">Click me</a>
         </div>
       </div>
      </div>
