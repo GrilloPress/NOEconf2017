@@ -6085,7 +6085,7 @@ tbody.collapse.in {
 }
 /* line 442, ../../../../../.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle {
-  border-color: #ddd;
+  border-color: transparent;
 }
 /* line 444, ../../../../../.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -6093,7 +6093,7 @@ tbody.collapse.in {
 }
 /* line 448, ../../../../../.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: white;
 }
 /* line 453, ../../../../../.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-collapse,
@@ -8807,6 +8807,6 @@ body {
 /* line 1, sass/_front_page.scss */
 .front-page-feature-block {
   text-align: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 4em;
 }
