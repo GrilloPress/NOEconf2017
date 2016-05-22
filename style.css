@@ -8799,3 +8799,7 @@ button.close {
     display: none !important;
   }
 }
+/* line 1, sass/_globals.scss */
+body {
+  margin-top: 3em;
+}
