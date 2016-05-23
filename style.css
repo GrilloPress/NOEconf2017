@@ -8811,8 +8811,18 @@ body {
   margin-bottom: 4em;
 }
 
+/* line 9, sass/_front_page.scss */
+.front-page-featured-reasons {
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+/* line 14, sass/_front_page.scss */
+.front-page-featured-reasons .media {
+  padding: 2em 0;
+}
+
 @media screen and (max-width: 383px) {
-  /* line 9, sass/_front_page.scss */
+  /* line 22, sass/_front_page.scss */
   .navbar-brand {
     font-size: 13px;
   }

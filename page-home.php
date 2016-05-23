@@ -73,21 +73,166 @@ get_header(); ?>
      
        <div class="row">
       
-      <main id="main" class="col-md-8 col-sm-8" role="main">
+      <main id="main" class="col-md-6" role="main">
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+          <div class="entry-content">
+            <?php the_content(); ?>
+            <?php
+              wp_link_pages( array(
+                'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'sth' ),
+                'after'  => '</div>',
+              ) );
+            ?>
+          </div><!-- .entry-content -->
+
+          <footer class="entry-footer">
+            <?php edit_post_link( esc_html__( 'Edit', 'sth' ), '<span class="edit-link">', '</span>' ); ?>
+          </footer><!-- .entry-footer -->
+        </article><!-- #post-## -->
 
 			<?php endwhile; // End of the loop. ?>
 
 		  </main><!-- #main -->
       
-      <aside class="col-md-4 col-sm-4">
-        <?php get_sidebar(); ?>
+      <aside class="col-md-offset-1 col-md-5">
       </aside>
       
 	  </div><!-- #primary -->
+     
+
+     <section class="front-page-featured-reasons">
+      <div class="row">
+        
+        
+        <div class="col-md-5 col-md-offset-1">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img src="http://placehold.it/50x50" alt="..." class="img-circle">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Media heading</h4>
+              ...
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-5 col-md-offset-1">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img src="http://placehold.it/50x50" alt="..." class="img-circle">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Media heading</h4>
+              ...
+            </div>
+          </div>
+        </div>
+      </div>
+       
+       <div class="row">
+        <div class="col-md-5 col-md-offset-1">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img src="http://placehold.it/50x50" alt="..." class="img-circle">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Media heading</h4>
+              ...
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-5 col-md-offset-1">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img src="http://placehold.it/50x50" alt="..." class="img-circle">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Media heading</h4>
+              ...
+            </div>
+          </div>
+        </div>
+      </div>
+       
+       <div class="row">
+        <div class="col-md-5 col-md-offset-1">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img src="http://placehold.it/50x50" alt="..." class="img-circle">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Media heading</h4>
+              ...
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-5 col-md-offset-1">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img src="http://placehold.it/50x50" alt="..." class="img-circle">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Media heading</h4>
+              ...
+            </div>
+          </div>
+        </div>
+      </div>
+       
+       <div class="row">
+        <div class="col-md-5 col-md-offset-1">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img src="http://placehold.it/50x50" alt="..." class="img-circle">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Media heading</h4>
+              ...
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-5 col-md-offset-1">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img src="http://placehold.it/50x50" alt="..." class="img-circle">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Media heading</h4>
+              ...
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+     
+     
+     
+     
+     
+     
+     
   </div>
 
 <?php get_footer(); ?>
