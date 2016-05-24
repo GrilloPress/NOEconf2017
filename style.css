@@ -8821,8 +8821,19 @@ body {
   padding: 2em 0;
 }
 
+/* line 22, sass/_front_page.scss */
+.front-page-sponsors {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+/* line 28, sass/_front_page.scss */
+.front-page-sponsors h2 {
+  margin-bottom: 2em;
+}
+
 @media screen and (max-width: 383px) {
-  /* line 22, sass/_front_page.scss */
+  /* line 36, sass/_front_page.scss */
   .navbar-brand {
     font-size: 13px;
   }

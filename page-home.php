@@ -107,7 +107,7 @@ get_header(); ?>
       <div class="row">
         
         
-        <div class="col-md-5 col-md-offset-1">
+        <div class="col-md-5 col-md-offset-2">
           <div class="media">
             <div class="media-left">
               <a href="#">
@@ -121,7 +121,7 @@ get_header(); ?>
           </div>
         </div>
         
-        <div class="col-md-5 col-md-offset-1">
+        <div class="col-md-5">
           <div class="media">
             <div class="media-left">
               <a href="#">
@@ -137,7 +137,7 @@ get_header(); ?>
       </div>
        
        <div class="row">
-        <div class="col-md-5 col-md-offset-1">
+        <div class="col-md-5 col-md-offset-2">
           <div class="media">
             <div class="media-left">
               <a href="#">
@@ -151,7 +151,7 @@ get_header(); ?>
           </div>
         </div>
         
-        <div class="col-md-5 col-md-offset-1">
+        <div class="col-md-5">
           <div class="media">
             <div class="media-left">
               <a href="#">
@@ -167,7 +167,7 @@ get_header(); ?>
       </div>
        
        <div class="row">
-        <div class="col-md-5 col-md-offset-1">
+        <div class="col-md-5 col-md-offset-2">
           <div class="media">
             <div class="media-left">
               <a href="#">
@@ -181,7 +181,7 @@ get_header(); ?>
           </div>
         </div>
         
-        <div class="col-md-5 col-md-offset-1">
+        <div class="col-md-5">
           <div class="media">
             <div class="media-left">
               <a href="#">
@@ -197,7 +197,7 @@ get_header(); ?>
       </div>
        
        <div class="row">
-        <div class="col-md-5 col-md-offset-1">
+        <div class="col-md-5 col-md-offset-2">
           <div class="media">
             <div class="media-left">
               <a href="#">
@@ -211,7 +211,7 @@ get_header(); ?>
           </div>
         </div>
         
-        <div class="col-md-5 col-md-offset-1">
+        <div class="col-md-5">
           <div class="media">
             <div class="media-left">
               <a href="#">
@@ -227,7 +227,61 @@ get_header(); ?>
       </div>
      </section>
      
+     <section>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="front-page-feature-block">
+                <img src="http://placehold.it/150x150" alt="..." class="img-circle">
+                <h4>Title</h4>
+                <p>words</p>
+                <a href="#" class="btn btn-primary" role="button">Click me</a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="front-page-feature-block">
+                <img src="http://placehold.it/150x150" alt="..." class="img-circle">
+                <h4>Title</h4>
+                <p>words</p>
+                <a href="#" class="btn btn-primary" role="button">Click me</a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="front-page-feature-block">
+                <img src="http://placehold.it/150x150" alt="..." class="img-circle">
+                <h4>Title</h4>
+                <p>words</p>
+                <a href="#" class="btn btn-primary" role="button">Click me</a>
+              </div>
+            </div>
+           </div>
+     </section>
      
+     <section class="front-page-sponsors">
+       <div class="col-md-12">
+         <h2>Our sponsors</h2>
+       </div>
+     
+       <div class="row">
+         <div class="col-md-3">
+           <img src="http://placehold.it/150x50" alt="..." class="">
+         </div>
+         
+         <div class="col-md-3">
+           <img src="http://placehold.it/150x50" alt="..." class="">
+         </div>
+         
+         <div class="col-md-3">
+           <img src="http://placehold.it/150x50" alt="..." class="">
+         </div>
+         
+         <div class="col-md-3">
+           <img src="http://placehold.it/150x50" alt="..." class="">
+         </div>
+         
+       </div>
+     </section>
      
      
      
