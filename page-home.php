@@ -19,15 +19,28 @@ get_header(); ?>
 <div class="jumbotron">
   <div class="container">
     <div class="col-md-12 text-center">
-          <h1>Hello, world!</h1>
-          <p class="lead">...</p>
-          <p><a class="btn btn-warning" href="#" role="button">Learn more</a> <a class="btn btn-primary" href="#" role="button">Learn more</a></p>
+      <?php if( get_field('headline') ): ?>
+        <h1><?php the_field('headline'); ?></h1>
+      <?php endif; ?>
+      
+      <?php if( get_field('subtitle') ): ?>
+        <p class="lead"><?php the_field('subtitle'); ?></p>
+      <?php endif; ?>
+      
+      <?php if( get_field('left_button') ): ?>
+        <a class="btn btn-warning" href="<?php the_field('left_button'); ?>" role="button">Find tickets</a>
+      <?php endif; ?>
+      
+      <?php if( get_field('right_button') ): ?>
+        <a class="btn btn-primary" href="<?php the_field('right_button'); ?>" role="button">Learn more</a>
+      <?php endif; ?>
      </div>
   </div>
 </div>
 
-	 <div id="primary" class="container">     
-     <div class="row">
+<div id="primary" class="container">
+  <section class="front-page-featured-thirds">
+    <div class="row">
       <div class="col-md-4">
         <div class="front-page-feature-block">
           <img src="http://placehold.it/150x150" alt="..." class="img-circle">
@@ -55,20 +68,21 @@ get_header(); ?>
         </div>
       </div>
      </div>
-       
-     <section>
-      <div class="row">
-        <div class="col-md-6">
-          <h2>About the conference</h2>
+  </section>
+  
+  <section class="front-page-featured-about">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>About the conference</h2>
           <p>100-200 words about why this conference, what the last one taught and why this next one will be even better etc.</p>
           <a href="#" class="btn btn-warning" role="button">Click me</a>
-        </div>
-        
-        <div class="col-md-offset-1 col-md-5">
-          there
-        </div>
       </div>
-     </section>
+        
+      <div class="col-md-offset-1 col-md-5">
+          there
+      </div>
+    </div>
+  </section>
      
      
        <div class="row">
@@ -287,6 +301,6 @@ get_header(); ?>
      
      
      
-  </div>
+</div>
 
 <?php get_footer(); ?>
