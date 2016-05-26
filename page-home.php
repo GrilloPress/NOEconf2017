@@ -41,32 +41,68 @@ get_header(); ?>
 <div id="primary" class="container">
   <section class="front-page-featured-thirds">
     <div class="row">
+
       <div class="col-md-4">
         <div class="front-page-feature-block">
-          <img src="http://placehold.it/150x150" alt="..." class="img-circle">
-          <h4>Title</h4>
-          <p>words</p>
-          <a href="#" class="btn btn-primary" role="button">Click me</a>
+          <?php if( get_field('featured_top_block_one_image') ): ?>
+            <img src="<?php the_field('featured_top_block_one_image'); ?>" class="img-circle">
+          <?php endif; ?>
+          
+          <?php if( get_field('featured_top_block_one_heading') ): ?>
+            <h4><?php the_field('featured_top_block_one_heading'); ?></h4>
+          <?php endif; ?>
+          
+          <?php if( get_field('featured_top_block_one_text') ): ?>
+            <p><?php the_field('featured_top_block_one_text'); ?></p>
+          <?php endif; ?>
+          
+          <?php if( get_field('featured_top_block_one_link') ): ?>
+            <a class="btn btn-primary" href="<?php the_field('featured_top_block_one_link'); ?>" alt="<?php the_field('featured_top_block_one_text'); ?>" role="button">Learn more</a>
+          <?php endif; ?>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="front-page-feature-block">
+          <?php if( get_field('featured_top_block_two_image') ): ?>
+            <img src="<?php the_field('featured_top_block_two_image'); ?>" class="img-circle">
+          <?php endif; ?>
+          
+          <?php if( get_field('featured_top_block_two_heading') ): ?>
+            <h4><?php the_field('featured_top_block_two_heading'); ?></h4>
+          <?php endif; ?>
+          
+          <?php if( get_field('featured_top_block_two_text') ): ?>
+            <p><?php the_field('featured_top_block_two_text'); ?></p>
+          <?php endif; ?>
+          
+          <?php if( get_field('featured_top_block_two_link') ): ?>
+            <a class="btn btn-primary" href="<?php the_field('featured_top_block_two_link'); ?>" alt="<?php the_field('featured_top_block_two_text'); ?>" role="button">Learn more</a>
+          <?php endif; ?>
         </div>
       </div>
       
       <div class="col-md-4">
         <div class="front-page-feature-block">
-          <img src="http://placehold.it/150x150" alt="..." class="img-circle">
-          <h4>Title</h4>
-          <p>words</p>
-          <a href="#" class="btn btn-primary" role="button">Click me</a>
+          <?php if( get_field('featured_top_block_three_image') ): ?>
+            <img src="<?php the_field('featured_top_block_three_image'); ?>" class="img-circle">
+          <?php endif; ?>
+          
+          <?php if( get_field('featured_top_block_three_heading') ): ?>
+            <h4><?php the_field('featured_top_block_three_heading'); ?></h4>
+          <?php endif; ?>
+          
+          <?php if( get_field('featured_top_block_three_text') ): ?>
+            <p><?php the_field('featured_top_block_three_text'); ?></p>
+          <?php endif; ?>
+          
+          <?php if( get_field('featured_top_block_three_link') ): ?>
+            <a class="btn btn-primary" href="<?php the_field('featured_top_block_three_link'); ?>" alt="<?php the_field('featured_top_block_three_text'); ?>" role="button">Learn more</a>
+          <?php endif; ?>
         </div>
       </div>
       
-      <div class="col-md-4">
-        <div class="front-page-feature-block">
-          <img src="http://placehold.it/150x150" alt="..." class="img-circle">
-          <h4>Title</h4>
-          <p>words</p>
-          <a href="#" class="btn btn-primary" role="button">Click me</a>
-        </div>
-      </div>
+      
      </div>
   </section>
   
