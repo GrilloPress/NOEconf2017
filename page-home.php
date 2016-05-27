@@ -109,13 +109,22 @@ get_header(); ?>
   <section class="front-page-featured-about">
     <div class="row">
       <div class="col-md-6">
-        <h2>About the conference</h2>
-          <p>100-200 words about why this conference, what the last one taught and why this next one will be even better etc.</p>
-          <a href="#" class="btn btn-warning" role="button">Click me</a>
+
+        <?php if( get_field('featured_about_title') ): ?>
+          <h2><?php the_field('featured_about_title'); ?></h2>
+        <?php endif; ?>
+        <?php if( get_field('featured_about_body') ): ?>
+          <h2><?php the_field('featured_about_body'); ?></h2>
+        <?php endif; ?>
+        <?php if( get_field('featured_about_button') ): ?>
+          <a class="btn btn-warning" href="<?php the_field('featured_about_button'); ?>" alt="<?php the_field('featured_about_title'); ?>" role="button">Learn more</a>
+        <?php endif; ?>
       </div>
         
       <div class="col-md-offset-1 col-md-5">
-          there
+        <?php if( get_field('featured_about_image') ): ?>
+          <img src="<?php the_field('featured_about_image'); ?>" class="img-responsive">
+        <?php endif; ?>
       </div>
     </div>
   </section>
