@@ -176,7 +176,7 @@ get_header(); ?>
               <div class="media-body">
                 <h4 class="media-heading"><?php the_field('reasons_heading_one'); ?></h4>
                 <?php if( get_field('reasons_body_one') ): ?>
-                  <?php if( get_field('reasons_body_one') ): ?>
+                  <?php the_field('reasons_body_one'); ?>
                 <?php endif; ?>
               </div>        
           <?php endif; ?>
@@ -199,7 +199,7 @@ get_header(); ?>
               <div class="media-body">
                 <h4 class="media-heading"><?php the_field('reasons_heading_two'); ?></h4>
                 <?php if( get_field('reasons_body_two') ): ?>
-                  <?php if( get_field('reasons_body_two') ): ?>
+                  <?php the_field('reasons_body_two'); ?>
                 <?php endif; ?>
               </div>        
           <?php endif; ?>
@@ -224,7 +224,7 @@ get_header(); ?>
               <div class="media-body">
                 <h4 class="media-heading"><?php the_field('reasons_heading_three'); ?></h4>
                 <?php if( get_field('reasons_body_three') ): ?>
-                  <?php if( get_field('reasons_body_three') ): ?>
+                  <?php the_field('reasons_body_three'); ?>
                 <?php endif; ?>
               </div>        
           <?php endif; ?>
@@ -247,7 +247,7 @@ get_header(); ?>
               <div class="media-body">
                 <h4 class="media-heading"><?php the_field('reasons_heading_four'); ?></h4>
                 <?php if( get_field('reasons_body_four') ): ?>
-                  <?php if( get_field('reasons_body_four') ): ?>
+                  <?php the_field('reasons_body_four'); ?>
                 <?php endif; ?>
               </div>        
           <?php endif; ?>
@@ -272,7 +272,7 @@ get_header(); ?>
               <div class="media-body">
                 <h4 class="media-heading"><?php the_field('reasons_heading_five'); ?></h4>
                 <?php if( get_field('reasons_body_five') ): ?>
-                  <?php if( get_field('reasons_body_five') ): ?>
+                  <?php the_field('reasons_body_five'); ?>
                 <?php endif; ?>
               </div>        
           <?php endif; ?>
@@ -295,7 +295,7 @@ get_header(); ?>
               <div class="media-body">
                 <h4 class="media-heading"><?php the_field('reasons_heading_six'); ?></h4>
                 <?php if( get_field('reasons_body_six') ): ?>
-                  <?php if( get_field('reasons_body_six') ): ?>
+                  <?php the_field('reasons_body_six'); ?>
                 <?php endif; ?>
               </div>        
           <?php endif; ?>
@@ -320,7 +320,7 @@ get_header(); ?>
               <div class="media-body">
                 <h4 class="media-heading"><?php the_field('reasons_heading_seven'); ?></h4>
                 <?php if( get_field('reasons_body_seven') ): ?>
-                  <?php if( get_field('reasons_body_seven') ): ?>
+                  <?php the_field('reasons_body_seven'); ?>
                 <?php endif; ?>
               </div>        
           <?php endif; ?>
@@ -343,7 +343,7 @@ get_header(); ?>
               <div class="media-body">
                 <h4 class="media-heading"><?php the_field('reasons_heading_eight'); ?></h4>
                 <?php if( get_field('reasons_body_eight') ): ?>
-                  <?php if( get_field('reasons_body_eight') ): ?>
+                  <?php the_field('reasons_body_eight'); ?>
                 <?php endif; ?>
               </div>        
           <?php endif; ?>
