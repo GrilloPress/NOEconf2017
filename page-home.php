@@ -353,36 +353,71 @@ get_header(); ?>
   </section>
   
   
-  <section>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="front-page-feature-block">
-                <img src="http://placehold.it/150x150" alt="..." class="img-circle">
-                <h4>Title</h4>
-                <p>words</p>
-                <a href="#" class="btn btn-primary" role="button">Click me</a>
-              </div>
-            </div>
+  <section class="related-pages">
+    <div class="row">
+      
+      <div class="col-md-4">
+        <div class="front-page-feature-block">
+          <?php if( get_field('related_pages_image_one') ): ?>
+            <img src="<?php the_field('related_pages_image_one'); ?>" alt="<?php get_field('related_pages_title_one') ?: the_field('related_pages_title_one');?>" class="img-circle img-responsive">
+          <?php endif; ?>
 
-            <div class="col-md-4">
-              <div class="front-page-feature-block">
-                <img src="http://placehold.it/150x150" alt="..." class="img-circle">
-                <h4>Title</h4>
-                <p>words</p>
-                <a href="#" class="btn btn-primary" role="button">Click me</a>
-              </div>
-            </div>
+          <?php if( get_field('related_pages_title_one') ): ?>
+            <h4><?php the_field('related_pages_title_one'); ?></h4>
+          <?php endif; ?>
 
-            <div class="col-md-4">
-              <div class="front-page-feature-block">
-                <img src="http://placehold.it/150x150" alt="..." class="img-circle">
-                <h4>Title</h4>
-                <p>words</p>
-                <a href="#" class="btn btn-primary" role="button">Click me</a>
-              </div>
-            </div>
-           </div>
-     </section>
+          <?php if( get_field('related_pages_body_one') ): ?>
+            <p><?php the_field('related_pages_body_one'); ?></p>
+          <?php endif; ?>
+
+          <?php if( get_field('related_pages_link_one') ): ?>
+            <a href="<?php the_field('related_pages_link_one'); ?>" role="button" title="<?php get_field('related_pages_title_one') ?: the_field('related_pages_title_one');?>" class="btn btn-primary"><?php get_field('related_pages_title_one') ?: the_field('related_pages_title_one');?></a>
+          <?php endif; ?>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="front-page-feature-block">
+          <?php if( get_field('related_pages_image_two') ): ?>
+            <img src="<?php the_field('related_pages_image_two'); ?>" alt="<?php get_field('related_pages_title_two') ?: the_field('related_pages_title_two');?>" class="img-circle img-responsive">
+          <?php endif; ?>
+
+          <?php if( get_field('related_pages_title_two') ): ?>
+            <h4><?php the_field('related_pages_title_two'); ?></h4>
+          <?php endif; ?>
+
+          <?php if( get_field('related_pages_body_two') ): ?>
+            <p><?php the_field('related_pages_body_two'); ?></p>
+          <?php endif; ?>
+
+          <?php if( get_field('related_pages_link_two') ): ?>
+            <a href="<?php the_field('related_pages_link_two'); ?>" role="button" title="<?php get_field('related_pages_title_two') ?: the_field('related_pages_title_two');?>" class="btn btn-primary"><?php get_field('related_pages_title_two') ?: the_field('related_pages_title_two');?></a>
+          <?php endif; ?>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="front-page-feature-block">
+          <?php if( get_field('related_pages_image_three') ): ?>
+            <img src="<?php the_field('related_pages_image_three'); ?>" alt="<?php get_field('related_pages_title_three') ?: the_field('related_pages_title_three');?>" class="img-circle img-responsive">
+          <?php endif; ?>
+
+          <?php if( get_field('related_pages_title_three') ): ?>
+            <h4><?php the_field('related_pages_title_three'); ?></h4>
+          <?php endif; ?>
+
+          <?php if( get_field('related_pages_body_three') ): ?>
+            <p><?php the_field('related_pages_body_three'); ?></p>
+          <?php endif; ?>
+
+          <?php if( get_field('related_pages_link_three') ): ?>
+            <a href="<?php the_field('related_pages_link_three'); ?>" role="button" title="<?php get_field('related_pages_title_three') ?: the_field('related_pages_title_three');?>" class="btn btn-primary"><?php get_field('related_pages_title_three') ?: the_field('related_pages_title_three');?></a>
+          <?php endif; ?>
+        </div>
+      </div>
+
+    </div>
+  </section>
      
      <section class="front-page-sponsors">
        <div class="col-md-12">
