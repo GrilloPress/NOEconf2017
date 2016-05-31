@@ -356,66 +356,36 @@ get_header(); ?>
   <section class="related-pages">
     <div class="row">
       
+      <?php 
+      
+      $related_pages = array("one", "two", "three");
+
+      foreach ($related_pages as $rp) { ;?>
+        
       <div class="col-md-4">
         <div class="front-page-feature-block">
-          <?php if( get_field('related_pages_image_one') ): ?>
-            <img src="<?php the_field('related_pages_image_one'); ?>" alt="<?php get_field('related_pages_title_one') ?: the_field('related_pages_title_one');?>" class="img-circle img-responsive">
+          
+          <?php if( get_field('related_pages_image_' . $rp) ): ?>
+            <img src="<?php the_field('related_pages_image_' . $rp); ?>" alt="<?php get_field('related_pages_title_' . $rp) ?: the_field('related_pages_title_' . $rp);?>" class="img-circle img-responsive">
           <?php endif; ?>
 
-          <?php if( get_field('related_pages_title_one') ): ?>
-            <h4><?php the_field('related_pages_title_one'); ?></h4>
+          <?php if( get_field('related_pages_title' . $rp) ): ?>
+            <h4><?php the_field('related_pages_title_' . $rp); ?></h4>
           <?php endif; ?>
 
-          <?php if( get_field('related_pages_body_one') ): ?>
-            <p><?php the_field('related_pages_body_one'); ?></p>
+          <?php if( get_field('related_pages_body_' . $rp) ): ?>
+            <p><?php the_field('related_pages_body_' . $rp); ?></p>
           <?php endif; ?>
 
-          <?php if( get_field('related_pages_link_one') ): ?>
-            <a href="<?php the_field('related_pages_link_one'); ?>" role="button" title="<?php get_field('related_pages_title_one') ?: the_field('related_pages_title_one');?>" class="btn btn-primary"><?php get_field('related_pages_title_one') ?: the_field('related_pages_title_one');?></a>
+          <?php if( get_field('related_pages_link_' . $rp) ): ?>
+            <a href="<?php the_field('related_pages_link_' . $rp); ?>" role="button" title="<?php get_field('related_pages_title_' . $rp) ?: the_field('related_pages_title_' . $rp);?>" class="btn btn-primary"><?php get_field('related_pages_title_' . $rp) ?: the_field('related_pages_title_' . $rp);?></a>
           <?php endif; ?>
         </div>
       </div>
       
-      <div class="col-md-4">
-        <div class="front-page-feature-block">
-          <?php if( get_field('related_pages_image_two') ): ?>
-            <img src="<?php the_field('related_pages_image_two'); ?>" alt="<?php get_field('related_pages_title_two') ?: the_field('related_pages_title_two');?>" class="img-circle img-responsive">
-          <?php endif; ?>
-
-          <?php if( get_field('related_pages_title_two') ): ?>
-            <h4><?php the_field('related_pages_title_two'); ?></h4>
-          <?php endif; ?>
-
-          <?php if( get_field('related_pages_body_two') ): ?>
-            <p><?php the_field('related_pages_body_two'); ?></p>
-          <?php endif; ?>
-
-          <?php if( get_field('related_pages_link_two') ): ?>
-            <a href="<?php the_field('related_pages_link_two'); ?>" role="button" title="<?php get_field('related_pages_title_two') ?: the_field('related_pages_title_two');?>" class="btn btn-primary"><?php get_field('related_pages_title_two') ?: the_field('related_pages_title_two');?></a>
-          <?php endif; ?>
-        </div>
-      </div>
+      <?php }
+      reset($related_pages);?>
       
-      <div class="col-md-4">
-        <div class="front-page-feature-block">
-          <?php if( get_field('related_pages_image_three') ): ?>
-            <img src="<?php the_field('related_pages_image_three'); ?>" alt="<?php get_field('related_pages_title_three') ?: the_field('related_pages_title_three');?>" class="img-circle img-responsive">
-          <?php endif; ?>
-
-          <?php if( get_field('related_pages_title_three') ): ?>
-            <h4><?php the_field('related_pages_title_three'); ?></h4>
-          <?php endif; ?>
-
-          <?php if( get_field('related_pages_body_three') ): ?>
-            <p><?php the_field('related_pages_body_three'); ?></p>
-          <?php endif; ?>
-
-          <?php if( get_field('related_pages_link_three') ): ?>
-            <a href="<?php the_field('related_pages_link_three'); ?>" role="button" title="<?php get_field('related_pages_title_three') ?: the_field('related_pages_title_three');?>" class="btn btn-primary"><?php get_field('related_pages_title_three') ?: the_field('related_pages_title_three');?></a>
-          <?php endif; ?>
-        </div>
-      </div>
-
     </div>
   </section>
      
