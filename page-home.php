@@ -356,14 +356,13 @@ get_header(); ?>
   <section class="related-pages">
     <div class="row">
       
-      <?php 
-      
+      <?php
       $related_pages = array("one", "two", "three");
 
       foreach ($related_pages as $rp) { ;?>
         
       <div class="col-md-4">
-        <div class="front-page-feature-block">
+        <div class="page-feature-block">
           
           <?php if( get_field('related_pages_image_' . $rp) ): ?>
             <img src="<?php the_field('related_pages_image_' . $rp); ?>" alt="<?php get_field('related_pages_title_' . $rp) ?: the_field('related_pages_title_' . $rp);?>" class="img-circle img-responsive">
