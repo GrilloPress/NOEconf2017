@@ -15,23 +15,45 @@
       <div class="site-info container">
         <div class="row">
           <div id="widget-footer">
-		        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer1') ) : ?>
-		        <?php endif; ?>
-		        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer2') ) : ?>
-		        <?php endif; ?>
-		        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer3') ) : ?>
-		        <?php endif; ?>
-            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer4') ) : ?>
-		        <?php endif; ?>
+            
+            <div class="col-md-3">
+              <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer1') ) : ?>
+		          <?php endif; ?>
+            </div>
+            
+            <div class="col-md-3">
+              <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer2') ) : ?>
+		          <?php endif; ?>
+            </div>
+            
+            <div class="col-md-3">
+              <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer3') ) : ?>
+		          <?php endif; ?>
+            </div>
+            
+            <div class="col-md-3">
+              <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer4') ) : ?>
+		          <?php endif; ?>
+            </div>
+
 		      </div>
         </div>
         
-        <div class="row">
+        
+      </div><!-- .site-info -->
+      
+      <footer class="sub-footer">
+        <div class="container">
           <div class="col-md-12">
-            <p>&copy; Sheffield Teaching Hospitals NHS Foundation Trust</p>
+            <div class="row">
+              <p>&copy; Sheffield Teaching Hospitals NHS Foundation Trust</p>
+            </div>
           </div>
         </div>
-      </div><!-- .site-info -->
+      </footer>
+      
+      
+      
     </footer><!-- #colophon -->
   </div><!-- #page -->
 
