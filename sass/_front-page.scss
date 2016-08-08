@@ -1,0 +1,31 @@
+#page-home-card-section {
+  
+  h2 {
+    
+    color: $brand-primary;
+    
+  }
+  
+  h3 {
+    
+    font-size: floor(($font-size-base * 2.55));
+    
+  }
+  
+  hr {
+    
+    border: 2px solid $brand-primary;
+    
+  }
+  
+}
+
+.grey-section {
+  
+  background-color: #efefef;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  margin-top: -2em;
+  margin-bottom: 2em;
+  
+}

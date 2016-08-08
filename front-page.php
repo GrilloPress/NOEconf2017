@@ -38,6 +38,38 @@ get_header(); ?>
   </div>
 </div>
 
+<section id="page-home-card-section" class="grey-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h2 class="section-header">Main header</h2>
+        <hr>
+      </div>
+    </div> 
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Long section title</h3>
+        <div class="row">
+          <div class="col-md-4">
+
+            <img src="http://workingtogethernhs.co.uk/wp-content/uploads/2014/11/Doncaster4.jpg" class="img-responsive wt-image">
+          </div>
+          <div class="col-md-8">
+                    <p class="lead">Collaborating on a number of common issues, the Working Together Vanguard aims to strengthen 
+                        each organisation's ability to deliver safe, sustainable and local services as well as 
+                        meet commissioner intentions to improve the health and well-being of people and
+                        make collective efficiencies where the potential exists</p>
+            <p><a href="#" class="btn btn-lg btn-warning">Further information</a></p>
+            
+          
+                    </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <div id="primary" class="container">
   
   <section class="front-page-featured-thirds">
@@ -45,7 +77,7 @@ get_header(); ?>
   
   <section class="">
     <div class="row">
-    <main id="main" class="col-md-6 col-md-offset-3" role="main">
+    <main id="main" class="col-md-6" role="main">
       <?php while ( have_posts() ) : the_post(); ?>
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
           <div class="entry-content">
@@ -67,7 +99,23 @@ get_header(); ?>
 
 		  </main><!-- #main -->
       
-      <aside class="col-md-offset-1 col-md-5">
+      <aside class="col-md-offset-1 col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel title</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel title</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
       </aside>
       
 	  </div><!-- #primary -->

@@ -8804,6 +8804,11 @@ body {
   margin-top: 3em;
 }
 
+/* line 7, sass/_globals.scss */
+.jumbotron {
+  padding-top: 100px;
+}
+
 /* line 1, sass/_footers.scss */
 .site-footer {
   background-color: #2da78f;
@@ -8867,4 +8872,26 @@ body {
 /* line 47, sass/_wp_pages.scss */
 .home {
   margin-top: 0em;
+}
+
+/* line 3, sass/_front-page.scss */
+#page-home-card-section h2 {
+  color: #18bc9c;
+}
+/* line 9, sass/_front-page.scss */
+#page-home-card-section h3 {
+  font-size: 40px;
+}
+/* line 15, sass/_front-page.scss */
+#page-home-card-section hr {
+  border: 2px solid #18bc9c;
+}
+
+/* line 23, sass/_front-page.scss */
+.grey-section {
+  background-color: #efefef;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  margin-top: -2em;
+  margin-bottom: 2em;
 }
