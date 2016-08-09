@@ -29,3 +29,56 @@
   margin-bottom: 2em;
   
 }
+
+// PRICING STYLES
+
+.pricing-container {
+  
+  margin-top: 3em;
+  margin-bottom: 3em;
+  
+}
+
+.panel-featured {
+  
+  margin-top: -1.5em;
+  
+  @media screen and (max-width: $screen-sm-min) {
+    
+    margin-top: 0;
+    
+  }
+  
+}
+
+.panel-pricing {
+  
+  text-align: center;
+  
+  
+  p.price {
+  
+    font-size: 4em;
+    font-weight: 700;
+    color: $brand-info;
+  
+  }
+  
+  p.sub {
+    
+    
+  }
+  
+  
+}
+
+.panel-featured {
+
+  p.price {
+    
+    font-size: 6em;
+    
+  }
+  
+}
+

@@ -42,22 +42,22 @@ get_header(); ?>
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-        <h2 class="section-header">Main header</h2>
+        <h2 class="section-header">About our conference</h2>
         <hr>
       </div>
     </div> 
     <div class="row">
       <div class="col-md-12">
-        <h3>Long section title</h3>
+        <h3>Engage with world-class speakers and instructors talk about breech birth</h3>
         <div class="row">
           <div class="col-md-4">
 
-            <img src="http://workingtogethernhs.co.uk/wp-content/uploads/2014/11/Doncaster4.jpg" class="img-responsive wt-image">
+            <img src="<?php echo get_template_directory_uri() . "/images/citywideteam2.jpg";?>" class="img-responsive wt-image">
           </div>
           <div class="col-md-8">
-            <p class="lead">Collaborating on a number of common issues, the Working Together Vanguard aims to strengthen each organisation's ability to deliver safe, sustainable and local services as well as meet commissioner intentions to improve the health and well-being of people and make collective efficiencies where the potential exists</p>
+            <p class="lead">The North of England Breech Conference builds on our 2014 event, including discussions and talks covering the evidence and physiology of vaginal breech birth, upright vs supine breech birth, developing a robust breech pathway, debriefing the unexpected, supporting colleagues and parents.</p>
             <p>
-              <a href="#" class="btn btn-lg btn-warning">Further information</a>
+              <a target="_blank" href="https://www.eventbrite.co.uk/e/north-of-england-breech-conference-ii-uk-tickets-25481488819" class="btn btn-lg btn-warning">Buy ticket</a>
             </p>
           </div>
           
@@ -68,6 +68,61 @@ get_header(); ?>
 </section>
 
 <div id="primary" class="container">
+  
+  <section class="pricing-container">
+    <div class="row">
+      
+      <div class="col-md-3 col-md-offset-1">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Sponsor the event?</h3>
+          </div>
+          <div class="panel-body">
+            <p>Are you interested in supporting us host an event that aims to develop skills and support choice?</p>
+            <p>If yes, you can <a href="mailto:sheffieldconferences@sth.nhs.uk">get in touch with the conference team via email</a></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="panel panel-primary panel-featured">
+          <div class="panel-heading">
+            <h3 class="panel-title">Early-bird tickets</h3>
+          </div>
+          <div class="panel-body">
+            <p>We have opened up a small selection of "early-bird" tickets for North of England Breech Conference 2017.</p>
+            <p>These tickets are limited to a select number of customers so get them today!</p>
+            <div class="panel-pricing">
+              <p class="price">£160</p>
+              <p class="sub">(+£43.15 Fee and VAT)</p>
+            </div>
+            <p>
+              <a role="button" target="_blank" href="https://www.eventbrite.co.uk/e/north-of-england-breech-conference-ii-uk-tickets-25481488819" class="btn btn-block btn-warning">Buy ticket</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Regular ticket</h3>
+          </div>
+          <div class="panel-body">
+            <p>Grab yourself a ticket to our two-day breech conference in Sheffield</p>
+            <div class="panel-pricing">
+              <p class="price">£195</p>
+              <p class="sub">(+£52.46 Fee and VAT)</p>
+            </div>
+            <p>
+              <a role="button" target="_blank" href="https://www.eventbrite.co.uk/e/north-of-england-breech-conference-ii-uk-tickets-25481488819" class="btn btn-block btn-default">Buy ticket</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
   
   <section class="front-page-featured-thirds">
   </section>

@@ -14,7 +14,7 @@ body {
   
    background-color: $brand-warning;
   
-  // Screesn larger than the navbar collapse breakpoint
+  // Screens larger than the navbar collapse breakpoint
   @media screen and (min-width: $screen-sm-min) {
     
     border-bottom: 5px solid $brand-warning;
