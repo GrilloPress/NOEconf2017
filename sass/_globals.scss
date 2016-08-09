@@ -9,3 +9,17 @@ body {
   padding-top: 100px;
   
 }
+
+.navbar-tickets-link {
+  
+   background-color: $brand-warning;
+  
+  // Screesn larger than the navbar collapse breakpoint
+  @media screen and (min-width: $screen-sm-min) {
+    
+    border-bottom: 5px solid $brand-warning;
+    background-color: transparent;
+    
+  }
+   
+}

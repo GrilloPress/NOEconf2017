@@ -58,6 +58,12 @@
 
 					<div class="collapse navbar-collapse navbar-responsive-collapse">
 						<?php wp_bootstrap_main_nav(); ?>
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="navbar-tickets-link" target="_blank" href="https://www.eventbrite.co.uk/e/north-of-england-breech-conference-ii-uk-tickets-25481488819#tickets<?php // the_field('left_button'); ?>" role="button">Get tickets</a></li>
+            </ul>
+            
+             
 					</div>
 
 				</div> <!-- end .container -->

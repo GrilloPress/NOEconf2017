@@ -55,14 +55,11 @@ get_header(); ?>
             <img src="http://workingtogethernhs.co.uk/wp-content/uploads/2014/11/Doncaster4.jpg" class="img-responsive wt-image">
           </div>
           <div class="col-md-8">
-                    <p class="lead">Collaborating on a number of common issues, the Working Together Vanguard aims to strengthen 
-                        each organisation's ability to deliver safe, sustainable and local services as well as 
-                        meet commissioner intentions to improve the health and well-being of people and
-                        make collective efficiencies where the potential exists</p>
-            <p><a href="#" class="btn btn-lg btn-warning">Further information</a></p>
-            
-          
-                    </div>
+            <p class="lead">Collaborating on a number of common issues, the Working Together Vanguard aims to strengthen each organisation's ability to deliver safe, sustainable and local services as well as meet commissioner intentions to improve the health and well-being of people and make collective efficiencies where the potential exists</p>
+            <p>
+              <a href="#" class="btn btn-lg btn-warning">Further information</a>
+            </p>
+          </div>
           
         </div>
       </div>

@@ -8809,6 +8809,18 @@ body {
   padding-top: 100px;
 }
 
+/* line 13, sass/_globals.scss */
+.navbar-tickets-link {
+  background-color: #f0ad4e;
+}
+@media screen and (min-width: 768px) {
+  /* line 13, sass/_globals.scss */
+  .navbar-tickets-link {
+    border-bottom: 5px solid #f0ad4e;
+    background-color: transparent;
+  }
+}
+
 /* line 1, sass/_footers.scss */
 .site-footer {
   background-color: #2da78f;
