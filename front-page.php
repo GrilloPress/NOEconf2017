@@ -186,6 +186,28 @@ get_header(); ?>
   
   <section class="">
     <div class="row">
+      
+      <div class="col-md-6">
+        <h2>Our section conference</h2>
+        <p>This is the second North of England Breech Conference and we will both reviewing evidence to date, as well as exploring the many issues around the holistic care of women who have elected to have a vaginal breech birth.</p>
+        <p>This is a multidisciplinary conference supporting women’s choice of birthing a breech baby vaginally. Our speakers are obstetric practitioners (midwives and doctors), managers, legal and a psychologist. We will of course hear from parents and we most definitely want this conference to be interactive with our delegates.</p>
+        <p>The Sheffield Breech Team are 2016’s Royal College of Midwives’ winners for Excellence in Maternity Care for our collaborative care for women expecting breech babies. We think this team approach is both sustainable and replicable and is highly supportive of choice and physiological birth!</p>
+      </div>
+      
+      <div class="col-md-6">
+        <h2>A great venue in Sheffield</h2>
+        <p>This year we are hosting the conference in the <strong>Mundella Building, Collegiete Cresent</strong> in Hallam University's Collegiete campus.</p>
+        <p>You can find a map and directions below:</p>
+        <a href="https://www.shu.ac.uk/visit-us/how-to-find-us/collegiate-campus-plan" target="_blank">
+          <img class="img-responsive" src="<?php echo get_template_directory_uri() . "/images/872shuspacecollegiatemap.jpg";?>">
+        </a>
+      </div>
+      
+    </div>
+  </section>
+  
+  <section class="">
+    <div class="row">
     <main id="main" class="col-md-6" role="main">
       <?php while ( have_posts() ) : the_post(); ?>
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
