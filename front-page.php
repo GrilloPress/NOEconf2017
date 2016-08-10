@@ -38,7 +38,7 @@ get_header(); ?>
   </div>
 </div>
 
-<section id="page-home-card-section" class="grey-section">
+<section class="page-home-card-section grey-section">
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
@@ -67,9 +67,10 @@ get_header(); ?>
   </div>
 </section>
 
-<div id="primary" class="container">
-  
   <section class="pricing-container">
+    <div class="container">
+      
+    
     <div class="row">
       
       <div class="col-md-3 col-md-offset-1">
@@ -120,9 +121,65 @@ get_header(); ?>
           </div>
         </div>
       </div>
-      
+      </div>
     </div>
   </section>
+
+<section class="page-home-card-section page-home-card-team-section grey-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h2 class="section-header">Our conference team</h2>
+        <hr>
+      </div>
+    </div> 
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Hosted by the multi-award winning Sheffield Citywide 1:1 Team</h3>
+        <p class="lead">The Citywide 1-1 Team, consisting of midwives Helen Dresner Barnes, Nicola Dawes and Sarah Martin were formed in 2012 to look after women seeking care outside usual recommended pathways or who have a range of maternal mental health needs. They are supported by multidisciplinary group including managers and obstetricians. The team works on a caseload model of care and are on call 24/7 for their caseload. Part of the service provided by the team is to give 1-1 care to those women with planned vaginal breech births in conjunction with Consultant Obstetrician Dr Julia Bodle.</p>
+        
+        <div class="row">
+          
+          <div class="col-md-3">
+            <div class="profile-container">
+              <img src="<?php echo get_template_directory_uri() . "/images/helend.png";?>" class="wt-image">
+              <h4>Helen Dresner-Barnes</h4>
+              <p>Helen Dresner Barnes was a Speech and Language Therapist and Researcher in Child Language prior to qualifying as a midwife in 2004. She has worked as a caseloading midwife in Sheffield since 2005 and is deeply committed to women’s choice.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-3">
+            <div class="profile-container">
+              <img src="<?php echo get_template_directory_uri() . "/images/sarah.png";?>" class="">
+              <h4>Sarah Martin</h4>
+              <p>Sarah Martin qualified as a nurse in 1988, working both in the UK and Australia. Her interest has always been in women’s health and has worked in that field since 1990, first in gynae, then qualifying as a midwife in 1994.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-3">
+            <div class="profile-container">
+              <img src="<?php echo get_template_directory_uri() . "/images/nicola.png";?>" class="">
+              <h4>Nicola Dawes</h4>
+              <p>Nicola Dawes qualified as a Staff Nurse in 2004, and then as a Midwife in 2007. She has always had a strong passion in promoting normality and is committed to women centred care. Nicola worked as a core member on the midwifery led care unit before joining the community Homebirth Team.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-3">
+            <div class="profile-container">
+              <img src="<?php echo get_template_directory_uri() . "/images/julia.png";?>" class="">
+              <h4>Dr Julia Bodle</h4>
+              <p>Julia is a Consultant Obstetrician in Sheffield. A graduate of Leeds University in 1991, she returned to the city to undertake her research degree and teach at the Medical School. She has published original research in the field of Obstetrics and Gynaecology encompassing laboratory based observation, clinical practice and medical education.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="container">
   
   <section class="front-page-featured-thirds">
   </section>

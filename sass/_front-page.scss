@@ -1,4 +1,4 @@
-#page-home-card-section {
+.page-home-card-section {
   
   h2 {
     
@@ -26,9 +26,21 @@
   padding-bottom: 2em;
   padding-top: 2em;
   margin-top: -2em;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   
 }
+
+.page-home-card-team-section {
+  
+  .profile-container {
+    
+    text-align: center;
+    margin-top: 1em;
+    
+  }
+  
+}
+
 
 // PRICING STYLES
 

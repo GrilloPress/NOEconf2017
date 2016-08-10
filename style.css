@@ -8887,15 +8887,15 @@ body {
 }
 
 /* line 3, sass/_front-page.scss */
-#page-home-card-section h2 {
+.page-home-card-section h2 {
   color: #18bc9c;
 }
 /* line 9, sass/_front-page.scss */
-#page-home-card-section h3 {
+.page-home-card-section h3 {
   font-size: 40px;
 }
 /* line 15, sass/_front-page.scss */
-#page-home-card-section hr {
+.page-home-card-section hr {
   border: 2px solid #18bc9c;
 }
 
@@ -8905,38 +8905,44 @@ body {
   padding-bottom: 2em;
   padding-top: 2em;
   margin-top: -2em;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 /* line 35, sass/_front-page.scss */
+.page-home-card-team-section .profile-container {
+  text-align: center;
+  margin-top: 1em;
+}
+
+/* line 47, sass/_front-page.scss */
 .pricing-container {
   margin-top: 3em;
   margin-bottom: 3em;
 }
 
-/* line 42, sass/_front-page.scss */
+/* line 54, sass/_front-page.scss */
 .panel-featured {
   margin-top: -1.5em;
 }
 @media screen and (max-width: 768px) {
-  /* line 42, sass/_front-page.scss */
+  /* line 54, sass/_front-page.scss */
   .panel-featured {
     margin-top: 0;
   }
 }
 
-/* line 54, sass/_front-page.scss */
+/* line 66, sass/_front-page.scss */
 .panel-pricing {
   text-align: center;
 }
-/* line 59, sass/_front-page.scss */
+/* line 71, sass/_front-page.scss */
 .panel-pricing p.price {
   font-size: 4em;
   font-weight: 700;
   color: #663399;
 }
 
-/* line 77, sass/_front-page.scss */
+/* line 89, sass/_front-page.scss */
 .panel-featured p.price {
   font-size: 6em;
 }
